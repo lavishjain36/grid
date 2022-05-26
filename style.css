@@ -1,45 +1,55 @@
-p{
-font-family: 'Kanit', sans-serif;
-font-weight: 400;
-font-size: 20px;
+img{
+    width: 100%;
+}
+
+/* Small Devices */
+@media (max-width:500px){
+    body {
+        background:linear-gradient(45deg, #9c61e4, #fdc419);
+    }
+    h1:nth-child(1){
+        display:block;
+    }
 }
 
 
-.overflow-visible{
-    background:grey;
-    overflow:visible;
-    height: 120px;
-    width: 50%;
-    padding: 10px;
-    border: 2px solid black;
+/* Mobile Devices */
+@media (min-width:501px) and (max-width:600px){
+    body {
+        background:linear-gradient(45deg, #e52125, #19fd1d);
+    }
+    h1:nth-child(2){
+        display:block;
+    }
+}
+
+/* Tablet Devices */
+@media (min-width:601px) and (max-width:700px){
+    body {
+        background:linear-gradient(45deg, #e6c1c4, #fd1993);
+    }
+    h1:nth-child(3){
+        display:block;
+    }
+}
+
+/* Laptop Devices */
+@media (min-width:701px) and (max-width:1000px){
+    body {
+        background:linear-gradient(45deg, #21e555, #19b5fd);
+    }
+    h1:nth-child(4){
+        display:block;
+    }
 }
 
 
-.overflow-hidden{
-    background:grey;
-    overflow:hidden;
-    height: 150px;
-    width: 50%;
-    padding: 10px;
-    border: 2px solid black;
-}
-
-
-/* .overflow-scroll{
-    background:grey;
-    overflow:scroll;
-    height: 150px;
-    width: 50%;
-    padding: 10px;
-    border: 2px solid black;
-} */
-
-
-.overflow-auto{
-    background:grey;
-    overflow:auto;
-    height:100px;
-    width: 50%;
-    padding: 10px;
-    border: 2px solid black;
+/* Large Devices */
+@media (min-width:1001px){
+    body {
+        background:linear-gradient(45deg, #e5e521, #fd1993);
+    }
+    h1:nth-child(5){
+        display:block;
+    }
 }
