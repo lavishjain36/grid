@@ -5,40 +5,44 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pricing Card</title>
+  <link rel="stylesheet" href="./bootstrap.min.css">
+
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="columns">
-  <ul class="price">
-    <li class="header">Basic</li>
-    <li class="rate">500Rs/Year</li>
-    <li>20GB Storage</li>
-    <li>20 Emails</li>
-    <li>20GB Bandwidth</li>
-    <li class="grey"><a href="" class="button"><button>Signup</button></a></li>
-  </ul>
-</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-8 alert alert-primary">I am occupying 8 columns</div>
+      <div class="col-4 alert alert-secondary">I am occupying 4 columns</div>
+    </div>
+    <div class="row">
+      <div class="col-4 alert alert-success">I am occupying 4 columns</div>
+      <div class="col-4 alert alert-info">I am occupying 4 columns</div>
+      <div class="col-2 alert alert-warning">I am occupying 2 columns</div>
+      <div class="col-2 alert alert-danger">I am occupying 2 columns</div>
+    </div>
 
-<div class="columns">
-  <ul class="price">
-    <li class="header">Pro</li>
-    <li class="rate">1000Rs/Year</li>
-    <li>50GB Storage</li>
-    <li>50 Emails</li>
-    <li>50GB Bandwidth</li>
-    <li class="grey"><a href="" class="button"><button>Signup</button></a></li>
-  </ul>
-</div>
-<div class="columns">
-  <ul class="price">
-    <li class="header">Premium</li>
-    <li class="rate">2000Rs/Year</li>
-    <li>2000GB Storage</li>
-    <li>2000 Emails</li>
-    <li>100GB Bandwidth</li>
-    <li class="grey"><a href="" class="button"><button>Signup</button></a></li>
-  </ul>
-</div>
-  
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-4 alert alert-primary">
+        I am occupying 12 columns and I am different size on small,medium, large devices.
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 alert alert-primary">
+        I am occupying 12 columns and I am different size on small,medium, large devices.
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 alert alert-primary">
+        I am occupying 12 columns and I am different size on small,medium, large devices.
+      </div>
+
+      </div>
+      <div class="row">
+        <div class="col-sm-2 alert alert-primary">Hello</div>
+        <div class="col-md-4 alert alert-danger">Hello</div>
+        <div class="col-lg-6 alert alert-warning">Hello</div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
