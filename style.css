@@ -1,55 +1,40 @@
-img{
-    width: 100%;
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Small Devices */
-@media (max-width:500px){
-    body {
-        background:linear-gradient(45deg, #9c61e4, #fdc419);
-    }
-    h1:nth-child(1){
-        display:block;
-    }
+.dropdown_button{
+    background-color: #578df3;
+    color: rgb(8, 37, 30);
+    border: none;
+    outline: none;
+    font-size: 30px;
+    cursor: pointer;
+    padding:14px 60px;
+    box-shadow: 0px 8px 16px 0px rgba(245, 37, 37, 0.934);
 }
 
-
-/* Mobile Devices */
-@media (min-width:501px) and (max-width:600px){
-    body {
-        background:linear-gradient(45deg, #e52125, #19fd1d);
-    }
-    h1:nth-child(2){
-        display:block;
-    }
-}
-
-/* Tablet Devices */
-@media (min-width:601px) and (max-width:700px){
-    body {
-        background:linear-gradient(45deg, #e6c1c4, #fd1993);
-    }
-    h1:nth-child(3){
-        display:block;
-    }
-}
-
-/* Laptop Devices */
-@media (min-width:701px) and (max-width:1000px){
-    body {
-        background:linear-gradient(45deg, #21e555, #19b5fd);
-    }
-    h1:nth-child(4){
-        display:block;
-    }
+.dropdown_list{
+    background-color: rgb(60, 255, 0);
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(245, 37, 37, 0.934);
+    text-align: center;
+    display: none;
+    position: absolute;
 }
 
 
-/* Large Devices */
-@media (min-width:1001px){
-    body {
-        background:linear-gradient(45deg, #e5e521, #fd1993);
-    }
-    h1:nth-child(5){
-        display:block;
-    }
+.dropdown_list a{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 12px 16px;
+    font-size: 20px;
+}
+.dropdown_list a:hover{
+    background-color: #34fa9e;
+}
+
+/* //For dropdown effect */
+.dropdown:hover .dropdown_list{
+    display: block;
 }
